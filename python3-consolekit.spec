@@ -10,6 +10,8 @@ Source0:	https://pypi.debian.net/consolekit/%{module}-%{version}.tar.gz
 #URL:		https://pypi.org/project/MODULE/
 URL:		https://pypi.org/project/consolekit/
 BuildRequires:	python3-build
+BuildRequires:	python3-flit_core < 4
+BuildRequires:	python3-flit_core >= 3.2
 BuildRequires:	python3-installer
 BuildRequires:	python3-modules >= 1:3.2
 BuildRequires:	rpm-pythonprov
