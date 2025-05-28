@@ -2,7 +2,7 @@
 Summary:	Additional utilities for click
 Name:		python3-%{module}
 Version:	1.7.2
-Release:	0.1
+Release:	1
 License:	MIT
 Group:		Libraries/Python
 Source0:	https://pypi.debian.net/consolekit/%{module}-%{version}.tar.gz
